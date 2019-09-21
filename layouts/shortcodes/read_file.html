@@ -1,0 +1,4 @@
+{{ $file := resources.Get (.Get 0) }}
+
+
+{{ $file.Content | safeHTML }}
