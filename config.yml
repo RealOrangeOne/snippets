@@ -31,3 +31,5 @@ blackfriday:
 disableKinds:
   - taxonomy
   - taxonomyTerm
+
+assetDir: .
