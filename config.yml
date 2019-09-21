@@ -27,3 +27,7 @@ pygmentsUseClasses: true
 
 blackfriday:
   smartypants: false
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
