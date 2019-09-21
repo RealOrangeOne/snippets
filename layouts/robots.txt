@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: {{ relURL "sitemap.xml" }}
