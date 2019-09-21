@@ -33,3 +33,10 @@ disableKinds:
   - taxonomyTerm
 
 assetDir: .
+
+menu:
+  shortcuts:
+    - name: <i class='fa fa-globe'></i> <label>Website</label>
+      url: https://theorangeone.net
+    - name: <i class='fa fa-github'></i> <label>GitHub</label>
+      url: https://github.com/RealOrangeOne/snippets
