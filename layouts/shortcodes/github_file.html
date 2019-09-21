@@ -1,0 +1,10 @@
+{{ $repo := .Get "repo" }}
+{{ $path := .Get "path" }}
+{{ $extension := index (last 1 (split $path ".")) 0 }}
+
+{{ $data := getJSON "https://api.github.com/repos/" $repo "/contents/" $path }}
+
+{{ $content := $data.content | base64Decode }}
+
+{{ highlight $content $extension "" }}
+<p><a href="{{ $data.html_url }}">View {{ $data.name }}</a></p>
