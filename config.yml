@@ -22,9 +22,11 @@ enableEmoji: true
 stepAnalysis: true
 enableGitInfo: true
 
+pluralizeListTitles: false
+
 pygmentsCodefencesGuessSyntax: true
 pygmentsCodefences: true
-pygmentsUseClasses: true
+pygmentsStyle: monokai
 
 blackfriday:
   smartypants: false
