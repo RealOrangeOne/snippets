@@ -20,6 +20,7 @@ outputs:
 enableRobotsTXT: true
 enableEmoji: true
 stepAnalysis: true
+enableGitInfo: true
 
 pygmentsCodefencesGuessSyntax: true
 pygmentsCodefences: true
