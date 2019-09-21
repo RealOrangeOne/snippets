@@ -1,0 +1,14 @@
+baseURL: http://example.org
+languageCode: en-gb
+title: Snippets
+theme: docdock
+
+params:
+  enableGitInfo: true
+  disableNavChevron: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
